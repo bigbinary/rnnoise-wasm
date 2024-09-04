@@ -1,5 +1,7 @@
 # rnnoise-wasm
 
+This is a fork of https://github.com/jitsi/rnnoise-wasm fixing the exports in index.js file. The package with the fix is available as `@bigbinary/rnnouse-wasm` in npm.
+
 [rnnoise](https://people.xiph.org/~jm/demo/rnnoise/) noise suppression library as a WASM module.
 
 This repository contains the necessary utilities to build the library using a Docker build environment with Emscripten.
